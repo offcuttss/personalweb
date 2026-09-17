@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>xiao921924 · 个人主页</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="assets/avatar.jpg" />
+</head>
+<body>
+  <nav class="nav">
+    <div class="container nav-inner">
+      <span class="nav-logo">xiao921924</span>
+      <div class="nav-links">
+        <a href="#about">关于我</a>
+        <a href="#doing">正在进行</a>
+        <a href="#skills">技能</a>
+        <a href="#projects">项目</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero" id="about">
+    <div class="container hero-inner">
+      <div class="avatar-wrap">
+        <!-- 头像：想换图就替换 assets/avatar.jpg -->
+        <img class="avatar" src="assets/avatar.jpg" alt="头像" />
+      </div>
+      <div class="hero-text">
+        <h1>xiao921924</h1>
+        <!-- ↓↓↓ 头像下方一句话介绍 -->
+        <p class="tagline">计算机科学与技术 · 大二在读</p>
+        <!-- ↓↓↓ 个人简介 -->
+        <p class="bio">热爱编程与技术探索，目前正在参与华为鸿蒙三方库适配大赛，专注于 OpenHarmony 生态建设与原生应用开发。希望用代码创造有价值的东西。</p>
+        <div class="links">
+          <!-- ↓↓↓ 链接按钮（改 href 即可）-->
+          <a class="btn btn-primary" href="https://atomgit.com/xiao921924" target="_blank" rel="noopener">AtomGit 主页</a>
+        </div>
+        <div class="info-bar" style="margin-top:18px;display:flex;gap:18px;flex-wrap:wrap;color:var(--muted);font-size:.9rem">
+          <span><b style="color:var(--text)">学校</b> 上海杉达学院</span>
+          <span><b style="color:var(--text)">专业</b> 计算机科学与技术</span>
+          <span><b style="color:var(--text)">年级</b> 大二</span>
+          <span><b style="color:var(--text)">坐标</b> 上海</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section id="doing">
+    <div class="container">
+      <h2 class="section-title">正在进行</h2>
+      <!-- ↓↓↓ 正在进行的内容，可增删 .card 块 -->
+      <div class="card activity-card" style="border-left:4px solid var(--primary);margin-bottom:16px">
+        <div class="card-head">
+          <h3>华为鸿蒙三方库适配大赛</h3>
+          <span class="badge badge-active">2026</span>
+        </div>
+        <p>参与华为鸿蒙三方库适配工作，将常用第三方库移植适配到 OpenHarmony 平台，助力鸿蒙原生生态发展。</p>
+        <div class="tags">
+          <span class="tag">OpenHarmony</span><span class="tag">ArkTS</span><span class="tag">C/C++</span><span class="tag">NAPI</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <h2 class="section-title">技能</h2>
+      <!-- ↓↓↓ 技能条：改 .skill-fill 的 width 百分比即可 -->
+      <div class="skills-grid">
+        <div class="skill">
+          <div class="skill-row"><span>C</span><span class="skill-num">85%</span></div>
+          <div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div>
+        </div>
+        <div class="skill">
+          <div class="skill-row"><span>C++</span><span class="skill-num">88%</span></div>
+          <div class="skill-bar"><div class="skill-fill" style="width:88%"></div></div>
+        </div>
+        <div class="skill">
+          <div class="skill-row"><span>Python</span><span class="skill-num">85%</span></div>
+          <div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div>
+        </div>
+        <div class="skill">
+          <div class="skill-row"><span>AI Agent 运用</span><span class="skill-num">90%</span></div>
+          <div class="skill-bar"><div class="skill-fill" style="width:90%"></div></div>
+        </div>
+        <div class="skill">
+          <div class="skill-row"><span>ArkTS / 鸿蒙开发</span><span class="skill-num">70%</span></div>
+          <div class="skill-bar"><div class="skill-fill" style="width:70%"></div></div>
+        </div>
+        <div class="skill">
+          <div class="skill-row"><span>Git / AtomGit</span><span class="skill-num">75%</span></div>
+          <div class="skill-bar"><div class="skill-fill" style="width:75%"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h2 class="section-title">我的项目</h2>
+      <!-- ↓↓↓ 项目卡片：复制一个 .card 块即可新增项目 -->
+      <div class="projects-grid">
+        <div class="card project-card">
+          <div class="card-head"><h3>鸿蒙三方库适配</h3><span class="period">2026 · 进行中</span></div>
+          <p>参与华为鸿蒙三方库适配大赛，负责将开源三方库适配至 OpenHarmony 平台，涉及 NAPI 封装与跨平台编译。</p>
+          <div class="card-foot">
+            <div class="tags"><span class="tag">OpenHarmony</span><span class="tag">NAPI</span><span class="tag">CMake</span></div>
+            <a class="project-link" href="https://atomgit.com/xiao921924" target="_blank" rel="noopener">查看 →</a>
+          </div>
+        </div>
+        <div class="card project-card">
+          <div class="card-head"><h3>示例项目：个人博客系统</h3><span class="period">2025 · 课程设计</span></div>
+          <p>这是一个示例条目，展示项目卡片的样式。把这里替换成你真实做过的项目：包括项目简介、技术栈和链接。</p>
+          <div class="card-foot">
+            <div class="tags"><span class="tag">示例</span><span class="tag">Web</span></div>
+            <a class="project-link" href="https://atomgit.com/xiao921924" target="_blank" rel="noopener">查看 →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2026 <span class="nav-logo">xiao921924</span> · 用代码记录成长</p>
+    </div>
+  </footer>
+</body>
+</html>
